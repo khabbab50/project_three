@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background: #262626;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+section{
+    width: 100%;
+    padding: 2rem 0;
+    margin: 5rem 0;
+}
+.heading{
+    padding: 1rem;
+    color: #262626;
+    background: #e1b838;
+    font-weight: 700;
+}
+.box{
+    border: .5rem solid #e1b838;
+}
+.navbar-light .navbar-toggler{
+    background: #e1b838;
+}
+
+.heder{
+    width: 100%;
+}
+.heder ul{
+    border: 2px solid #e1b838;
+}
+.heder ul li{}
+.heder ul li a{
+    color: #e1b838 !important;
+    padding: 1rem 4rem !important;
+}
+.heder ul li a:Hover{
+    color: #262626 !important;
+    background: #e1b838;
+    font-weight: 600;
+    transition: .8s;
+}
+
+.branding .box{
+    display: inline-block;
+}
+.carousel-indicators [data-bs-target]{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: #e1b838;
+}
+
+#menu{
+    margin-top: 5rem;
+    background: url(../images/menu_background.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.menu_top_title h1{
+    text-shadow: 6px 9px 7px black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+#discount{
+    background: url(../images/discount_background.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.discout_content h2{
+    text-shadow: 6px 9px 7px black;
+}
+.discout_content{
+    color: #e1b838;
+}
+.discout_content button{
+    background: #e1b838;
+    color: #262626;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+#special{
+    background: url(../images/special_background.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+
+#method{
+    background: url(../images/method_background.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.mathod_content{
+    margin: 20rem 10rem;
+}
+
+
+
+
+#music{
+    background: url(../images/live_music_backgrond.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 35rem;
+}
+
+
+
+.fodder h2{
+    color: #e1b838;
+    text-shadow: 6px 9px 7px black;
+    font-weight: 700;
+    margin: 5rem 0;
+}
+
+
+
+
+.icon_part i{
+    margin: 1rem;
+}
+.icon_part{
+    color: #e1b838;
+}
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 425px)
+{
+    html{
+        font-size: 57.5%;
+    }
+    section{
+        width: 100%;
+        margin: 0;
+    }
+    .menu_caed{
+        margin: 0rem 0 2rem 0 !important;
+        width:  100%;
+    }
+    #music{
+        padding-bottom: 20rem;
+        background-size: 190%;
+        background-repeat: no-repeat;
+    }
+    #music .box{
+        display: none;
+    }
+    .mathod_content {
+        margin: 0 2rem;
+        width: 90%;
+        text-align: center;
+    }
+    .mathod_content p{
+        padding: .5rem !important;
+        font-size: 1.5rem;
+    }
+    .fooder_copyright{
+        display: inline-table !important;
+    }
+    .discout_content{
+        text-align: center !important;
+    }
+    .special h1{
+        font-size:2rem;;
+    }
+    .special h3{
+        font-size:2rem;;
+    }
+    .special{
+        text-align: center;
+    }
+    .fodder h3{
+        font-size: 2rem;
+    }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px)
+{
+    html{
+        font-size: 50.5% !important;
+    }
+    section{
+        padding: 2rem 0;
+    }
+    .fooder_copyright{
+        display: inline-table !important;
+    }
+    .branding p{
+        font-size: 4rem;
+    }
+    .menu_caed{
+        margin: 1rem !important;
+    }
+    .special p{
+        font-size: 3rem;
+    }
+    .method h1{
+        font-size: 3rem;
+    }
+    .method p{
+        font-size: 2rem;
+    }
+    .music h1{
+        font-size: 3rem;
+    }
+    .music p{
+        font-size: 3rem;
+    }
+    .music h3{
+        font-size: 3rem;
+    }
+    .mathod_content {
+        margin: 10rem 6rem;
+    }
+    .fodder h3{
+        font-size: 2rem;
+    }
+}
